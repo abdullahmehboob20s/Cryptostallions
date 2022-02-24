@@ -20,7 +20,7 @@ const Card = ({ img, title }) => {
       <div className="flip-card-inner">
         <div className={`flip-card-front`}>
           <div className={`${styles.imgNftCard}`}>
-            <p className="black font-gilroy-extrabold fs-24px uppercase">
+            <p className="black font-gilroy-extrabold fs-20px uppercase">
               {title}
             </p>
             <img src={img} className="w-full" alt="" />
@@ -57,7 +57,9 @@ function ArtCollection() {
           <Swiper
             spaceBetween={50}
             slidesPerView={4}
-            pagination={true}
+            pagination={{
+              clickable: true,
+            }}
             className={isBellow ? "nftCollectionSwiper" : "nftArtCollection"}
             style={{ paddingBottom: isBellow ? "50px" : "" }}
             breakpoints={{

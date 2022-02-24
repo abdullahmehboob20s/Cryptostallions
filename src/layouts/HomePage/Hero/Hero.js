@@ -6,7 +6,7 @@ function Hero() {
   return (
     <div className={styles.hero}>
       <h1
-        className="white fs-70px font-gilroy-extrabold uppercase weight-9 text-center mb-50px lh-1"
+        className="white fs-40px font-gilroy-extrabold uppercase weight-9 text-center mb-50px lh-1"
         style={{ padding: "0 1rem", color: "#F3B32B " }}
       >
         STRIDE TOWARDS <br />

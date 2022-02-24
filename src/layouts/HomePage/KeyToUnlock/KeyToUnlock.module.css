@@ -79,9 +79,9 @@
     z-index: -1;
   }
 
-  .keyBtn {
-    display: none;
-  }
+  /* .keyBtn {
+      display: none;
+    } */
 
   .grid > .notHoverable {
     display: none;
@@ -100,12 +100,6 @@
     transform: translate(0%, 0%);
     z-index: 10;
     text-align: left;
-  }
-
-  .keyBtn {
-    position: absolute;
-    bottom: 2%;
-    right: 1%;
   }
 }
 
